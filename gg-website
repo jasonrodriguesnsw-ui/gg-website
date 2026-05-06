@@ -510,11 +510,30 @@ body{background:#000;color:#fff;font-family:"EB Garamond",Georgia,serif;overflow
 
   <!-- HERO -->
   <section id="hero">
-      <video id="v0" muted playsinline preload="auto"><source src="v1.mp4" type="video/mp4"></video>
-  <video id="v1" muted playsinline preload="auto"><source src="v2.mp4" type="video/mp4"></video>
-  <video id="v2" muted playsinline preload="auto"><source src="v3.mp4" type="video/mp4"></video>
-  <video id="v3" muted playsinline preload="auto"><source src="v4.mp4" type="video/mp4"></video>
-  <video id="v4" muted playsinline preload="auto"><source src="v5.mp4" type="video/mp4"></video>
+    <video id="v0" muted playsinline preload="auto">
+      <source src="https://firebasestorage.googleapis.com/v0/b/gg-website-fb9f2.firebasestorage.app/o/Camera_recording_walking_202604062046.mp4?alt=media" type="video/mp4">
+    </video>
+
+    <video id="v1" muted playsinline preload="auto">
+      <source src="https://firebasestorage.googleapis.com/v0/b/gg-website-fb9f2.firebasestorage.app/o/building1.mp4?alt=media" type="video/mp4">
+    </video>
+
+    <video id="v2" muted playsinline preload="auto">
+      <source src="https://firebasestorage.googleapis.com/v0/b/gg-website-fb9f2.firebasestorage.app/o/city1.mp4?alt=media" type="video/mp4">
+    </video>
+
+    <video id="v3" muted playsinline preload="auto">
+      <source src="https://firebasestorage.googleapis.com/v0/b/gg-website-fb9f2.firebasestorage.app/o/greg%20and%20sc.mp4?alt=media" type="video/mp4">
+    </video>
+
+    <video id="v4" muted playsinline preload="auto">
+      <source src="https://firebasestorage.googleapis.com/v0/b/gg-website-fb9f2.firebasestorage.app/o/signage%201.mp4?alt=media" type="video/mp4">
+    </video>
+
+    <video id="v5" muted playsinline preload="auto">
+      <source src="https://firebasestorage.googleapis.com/v0/b/gg-website-fb9f2.firebasestorage.app/o/trio%20at%20downing%20centre.mp4?alt=media" type="video/mp4">
+    </video>
+
     <div class="vig"></div>
     <button class="chev" onclick="document.getElementById('home-intro').scrollIntoView({behavior:'smooth'})">
       <svg viewBox="0 0 24 24"><polyline points="6 15 12 21 18 15"/></svg>
@@ -568,7 +587,7 @@ body{background:#000;color:#fff;font-family:"EB Garamond",Georgia,serif;overflow
 
   <!-- ENQUIRY BAND -->
   <div class="enquiry-band">
-    <div class="eq-vid"><video autoplay muted loop playsinline><source src="v1.mp4" type="video/mp4"></video></div>
+    <div class="eq-vid"><video autoplay muted loop playsinline><source src="https://firebasestorage.googleapis.com/v0/b/gg-website-fb9f2.firebasestorage.app/o/city1.mp4?alt=media" type="video/mp4"></video></div>
     <div class="eq-ov"></div>
     <div class="eq-box sr">
       <span class="eq-line">Facing charges? Speak with us today.</span>
@@ -686,7 +705,7 @@ body{background:#000;color:#fff;font-family:"EB Garamond",Georgia,serif;overflow
   </div>
 
   <div class="enquiry-band">
-    <div class="eq-vid"><video autoplay muted loop playsinline><source src="v1.mp4" type="video/mp4"></video></div>
+    <div class="eq-vid"><video autoplay muted loop playsinline><source src="https://firebasestorage.googleapis.com/v0/b/gg-website-fb9f2.firebasestorage.app/o/city1.mp4?alt=media" type="video/mp4"></video></div>
     <div class="eq-ov"></div>
     <div class="eq-box">
       <span class="eq-line">Facing charges? Speak with us today.</span>
@@ -767,7 +786,7 @@ body{background:#000;color:#fff;font-family:"EB Garamond",Georgia,serif;overflow
   </div>
 
   <div class="enquiry-band">
-    <div class="eq-vid"><video autoplay muted loop playsinline><source src="v1.mp4" type="video/mp4"></video></div>
+    <div class="eq-vid"><video autoplay muted loop playsinline><source src="https://firebasestorage.googleapis.com/v0/b/gg-website-fb9f2.firebasestorage.app/o/city1.mp4?alt=media" type="video/mp4"></video></div>
     <div class="eq-ov"></div>
     <div class="eq-box">
       <span class="eq-line">Facing charges? Speak with us today.</span>
@@ -904,7 +923,7 @@ body{background:#000;color:#fff;font-family:"EB Garamond",Georgia,serif;overflow
   }, {passive:true});
 
   /* ── VIDEO SEQUENCER (home hero) ── */
-  var N = 5, cur = 0, tmr = null;
+  var N = 6, cur = 0, tmr = null;
   var vids = [];
   for (var i = 0; i < N; i++) {
     var v = document.getElementById('v'+i);
